@@ -129,7 +129,7 @@ document.querySelectorAll('.copy-btn').forEach(btn => {
 // SCROLL REVEAL ANIMATION
 // ========================================
 const revealElements = document.querySelectorAll(
-    '.action-btn, .catalog-item, .hours-card, .map-card'
+    '.action-btn, .catalog-item, .vitrine-card, .hours-card, .map-card'
 );
 
 revealElements.forEach(el => el.classList.add('reveal'));
